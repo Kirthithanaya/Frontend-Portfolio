@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an axios instance with the base URL
 const api = axios.create({
-  baseURL: "https://backend-portfolio1-mkv5.onrender.com/api", // Change to your API base URL
+  baseURL: "http://localhost:5000/api/contact/send", // Change to your API base URL
   headers: {
     "Content-Type": "application/json",
   },
